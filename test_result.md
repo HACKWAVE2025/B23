@@ -205,7 +205,125 @@ backend:
           comment: "Successfully verified MongoDB data persistence by creating annotations and confirming they are saved and retrievable. Database operations working correctly with proper UUID generation"
 
 frontend:
-  # No frontend testing performed as per instructions
+  - task: "Landing Page Hero Section"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/LandingPage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test hero section with TimeLeap title, gold styling, parallax background, floating particles animation, and Begin Your Journey CTA button"
+
+  - task: "Landing Page Featured Monuments Section"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/LandingPage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test Featured Monuments section with 3 site cards, hover effects, and navigation to explore pages"
+
+  - task: "Landing Page Statistics and CTA Sections"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/LandingPage.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test Statistics section with 3 stat boxes and CTA section functionality"
+
+  - task: "Explore Page 3D Then/Now Slider"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/components/Hero3DSlider.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test 3D slider with historical vs current models, drag functionality, reset button, and labels"
+
+  - task: "Explore Page Timeline Section"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/ExplorePage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test timeline events rendering, alternating layout, gold timeline line, and scroll animations"
+
+  - task: "Explore Page Facts Grid"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/ExplorePage.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test facts grid with 8 fact cards, icons, hover effects, and styling"
+
+  - task: "Explore Page Annotations System"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/ExplorePage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test annotation display, Add New Annotation form, character counter, form validation, and success messages"
+
+  - task: "Explore Page AI Chatbot Integration"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/ExplorePage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test AI Guide button, chat panel slide-in, message sending, AI responses from Gemini, and chat history persistence"
+
+  - task: "Navigation and Routing"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/App.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test navigation between landing and explore pages, browser back/forward buttons, and direct URL access"
+
+  - task: "Responsive Design and Performance"
+    implemented: true
+    working: "NA"
+    file: "frontend/src/pages/LandingPage.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+        - working: "NA"
+          agent: "testing"
+          comment: "Need to test responsive layout at different viewport sizes, page load times, console errors, and smooth animations"
 
 metadata:
   created_by: "testing_agent"
