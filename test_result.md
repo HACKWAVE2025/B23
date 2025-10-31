@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test all TimeLeap backend APIs including GET endpoints for sites, timeline, facts, annotations, POST endpoints for creating annotations and AI chat with Gemini integration"
+user_problem_statement: "Comprehensive frontend testing for TimeLeap 3D historical monument explorer application including landing page, explore page, 3D slider, AI chatbot, annotations, and all interactive features"
 
 backend:
   - task: "GET /api/sites endpoint"
