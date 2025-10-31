@@ -345,3 +345,5 @@ test_plan:
 agent_communication:
     - agent: "testing"
       message: "Completed comprehensive backend API testing for TimeLeap application. All 8 backend endpoints tested successfully with 100% pass rate. Fixed critical .env file formatting issue that was preventing Gemini AI chat integration. All APIs now working correctly with proper data validation, MongoDB persistence, and error handling. Backend is fully functional and ready for production use."
+    - agent: "testing"
+      message: "Starting comprehensive frontend testing for TimeLeap 3D historical monument explorer. Will test landing page, explore page with 3D slider, AI chatbot, annotations system, navigation, and responsive design. Backend APIs are confirmed working, so focusing on UI/UX and frontend-backend integration testing."
