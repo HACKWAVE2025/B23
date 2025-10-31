@@ -333,7 +333,11 @@ metadata:
 
 test_plan:
   current_focus:
-    - "All backend API endpoints tested and verified"
+    - "Landing Page Hero Section"
+    - "Explore Page 3D Then/Now Slider"
+    - "Explore Page AI Chatbot Integration"
+    - "Explore Page Annotations System"
+    - "Navigation and Routing"
   stuck_tasks: []
   test_all: true
   test_priority: "high_first"
